@@ -1,0 +1,30 @@
+{
+"resources":
+	[
+	  {
+		"name":"gestures_png",
+		"type":"image",
+		"url":"assets/gestures.png"
+	  },
+		{
+		  "name":"texture_png",
+		  "type":"image",
+		  "url":"assets/armature/texture.png"
+		},
+		{
+		  "name":"skeleton_json",
+		  "type":"json",
+		  "url":"assets/armature/skeleton.json"
+		},
+		{
+		  "name":"texture_json",
+		  "type":"json",
+		  "url":"assets/armature/texture.json"
+		}
+	],
+
+"groups":
+	[
+	  {"name":"TestArmature","keys":"gestures_png,texture_png,skeleton_json,texture_json"}
+	]
+}
